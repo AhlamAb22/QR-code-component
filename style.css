@@ -39,7 +39,7 @@ body {
     background-color: var(--White);
     display: flex;
     flex-direction: column;
-    width: 320px;
+    max-width: 320px;
     border-radius: 20px;
     padding: 14px;
 }
