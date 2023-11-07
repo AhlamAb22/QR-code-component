@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=League+Spartan:wght@400;500;700&family=Outfit:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--Light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'outfit', sans-serif;
+}
+
+.container {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    border-radius: 20px;
+    padding: 14px;
+}
+
+.container>img {
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--Dark-blue);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: var(--Grayish-blue);
+    margin-bottom: 20px;
+}
